@@ -6,14 +6,14 @@ const Hero = ({ title }) => {
       <h1 className="text-3xl font-bold text-gray-700 text-center leading-10 my-8">
         {title}
       </h1>
-      <div className="h-full">
+      <div className="h-full lg:w-2/3">
         <StaticImage
           src="../images/OS-bundle.png"
-          width={700}
           quality={95}
           formats={["AUTO", "WEBP", "AVIF"]}
-          alt="A Gatsby astronaut"
+          alt="Hero"
           style={{ marginBottom: `1.45rem` }}
+          fullWidth
         />
       </div>
     </div>

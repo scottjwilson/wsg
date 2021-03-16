@@ -16,14 +16,14 @@ const About = () => {
         to make a full-time income trading options with-OUT years of experience
         or a math degree!
       </p>
-      <div className="h-full my-2">
+      <div className="h-full lg:w-2/3">
         <StaticImage
           src="../images/OS-module-bundle.png"
-          width={700}
           quality={95}
           formats={["AUTO", "WEBP", "AVIF"]}
-          alt="A Gatsby astronaut"
+          alt="Hero"
           style={{ marginBottom: `1.45rem` }}
+          fullWidth
         />
       </div>
 
