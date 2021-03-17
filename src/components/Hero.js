@@ -1,10 +1,11 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-const Hero = ({ title }) => {
+const Hero = () => {
   return (
     <div className="flex flex-col items-center justify-center container mx-auto p-4">
       <h1 className="text-3xl font-bold text-gray-700 text-center leading-10 my-8">
-        {title}
+        The FASTEST Way for Options Traders To Earn A Full-Time Income with-OUT
+        years of experience PERIOD! 🔥💯📈
       </h1>
       <div className="h-full lg:w-2/3">
         <StaticImage

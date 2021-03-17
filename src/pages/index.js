@@ -8,7 +8,7 @@ import Timer from "../components/Timer"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Hero title="The FASTEST Way for Options Traders To Earn A Full-Time Income with-OUT years of experience PERIOD! 🔥💯📈" />
+    <Hero />
     <About />
     <Timer />
   </Layout>
