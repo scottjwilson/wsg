@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react"
 import moment from "moment"
 
 const Timer = ({ deadline }) => {
-  const [days, setDays] = useState(0)
-  const [hours, setHours] = useState(0)
-  const [minutes, setMinutes] = useState(0)
-  const [seconds, setSeconds] = useState(0)
+  const [days, setDays] = useState(6)
+  const [hours, setHours] = useState(11)
+  const [minutes, setMinutes] = useState(39)
+  const [seconds, setSeconds] = useState(60)
 
   useEffect(() => {
     setInterval(() => {
@@ -21,12 +21,12 @@ const Timer = ({ deadline }) => {
   }, [deadline])
 
   return (
-    <div className="bg-red-500 py-2 flex justify-center fixed bottom-0 w-full">
+    <div className="bg-red-500 py-2 mt-12 flex justify-center fixed bottom-0 w-full">
       <div className="mx-2">
         <h1 className="text-white text-4xl font-bold">0{days}</h1>
         <p className="uppercase text-white font-bold text-xs">days</p>
       </div>
-      <div className="mx-2">
+      <div className="mx-2 ">
         <h1 className="text-white text-4xl font-bold">{hours}</h1>
         <p className="uppercase text-white font-bold text-xs">hrs</p>
       </div>

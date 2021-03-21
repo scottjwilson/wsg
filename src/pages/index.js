@@ -3,8 +3,8 @@ import Hero from "../components/Hero"
 import About from "../components/About"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Timer from "../components/Timer"
-import moment from "moment"
+import BuyNow from "../components/BuyNow"
+
 const IndexPage = () => {
   //   const date = moment().add(7, "days").calendar()
   //   const exp = date + `12:12:12`
@@ -13,8 +13,7 @@ const IndexPage = () => {
       <SEO title="Home" />
       <Hero />
       <About />
-
-      <Timer deadline="2021-03-24 12:12:12" />
+      <BuyNow />
     </Layout>
   )
 }
